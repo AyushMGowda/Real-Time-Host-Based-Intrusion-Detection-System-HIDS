@@ -74,12 +74,15 @@ Install manually:
 ```bash
 pip install psutil pywin32
 ```
+download tool package from github repo:
 ```bash
 git clone https://github.com/AyushMGowda/Real-Time-Host-Based-Intrusion-Detection-System-HIDS.git
 ```
+Unzip and O.lpen the folder:
 ```bash
 cd Real-Time-Host-Based-Intrusion-Detection-System-HIDS
 ```
+Test Suspicious Process Detection:
 ```bash
 python -m venv venv
 ```
@@ -91,7 +94,7 @@ pip install -r requirements.txt
 ```
 
 ### Running the Application
-Run as Administrator in system terminal:
+Run as Administrator in system terminal(inside the folder location):
 
 ```bash
 python security_logger.py
