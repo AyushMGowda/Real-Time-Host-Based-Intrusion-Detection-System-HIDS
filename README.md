@@ -91,7 +91,7 @@ pip install -r requirements.txt
 ```
 
 ### Running the Application
-Run as Administrator
+Run as Administrator in system terminal:
 
 ```bash
 python security_logger.py
