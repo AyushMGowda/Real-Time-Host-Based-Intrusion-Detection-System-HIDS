@@ -68,3 +68,23 @@ This project combines process monitoring, Windows Security Event Log analysis, a
 - Administrative privileges (required for Security Log access)
 
 ### Dependencies
+
+Install manually:
+
+```bash
+pip install psutil pywin32
+
+git clone https://github.com/AyushMGowda/Real-Time-Host-Based-Intrusion-Detection-System-HIDS.git
+cd Real-Time-Host-Based-Intrusion-Detection-System-HIDS
+
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Running the Application
+Run as Administrator
+
+```bash
+python security_logger.py
+```
