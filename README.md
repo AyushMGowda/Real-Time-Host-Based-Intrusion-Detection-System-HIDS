@@ -73,12 +73,20 @@ Install manually:
 
 ```bash
 pip install psutil pywin32
-
+```
+```bash
 git clone https://github.com/AyushMGowda/Real-Time-Host-Based-Intrusion-Detection-System-HIDS.git
+```
+```bash
 cd Real-Time-Host-Based-Intrusion-Detection-System-HIDS
-
+```
+```bash
 python -m venv venv
+```
+```bash
 venv\Scripts\activate
+```
+```bash
 pip install -r requirements.txt
 ```
 
