@@ -17,7 +17,8 @@ class SecurityLogger:
         self.bruteforce_window_seconds = 60
 
         self.root = root
-        self.root.title("OS Event Security Logger")
+        self.root.iconbitmap("icon.ico")
+        self.root.title("Real-Time HIDS Monitor")
         self.root.geometry("900x650")
         self.root.configure(bg="#1e1e1e")
 
